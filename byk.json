@@ -1,14 +1,14 @@
 {
-  "$var": {
-    "url": "https://github.com/fcbyk/pyodd/releases/download/pkg"
-  },
   "ai": {
-    "pip": [
-      "aichat @ {url}/aichat-0.1.0-py3-none-any.whl"
+    "pip-keep": [
+      "openai",
+      "rich",
+      "prompt-toolkit"
     ],
+    "downloads": "scripts/aichat.py",
     "command": {
-      "type": "python-m",
-      "entry": "aichat",
+      "type": "python",
+      "entry": "aichat.py",
       "desc": "在终端和AI聊天"
     }
   },
