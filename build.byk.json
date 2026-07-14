@@ -1,5 +1,4 @@
 {
     "build-odd":"python3 -m build ${0} --wheel --outdir ./dist",
-    "dy":"byk build-odd ./dy-parsing-download",
     "ai":"byk build-odd ./ai-chat"
 }
