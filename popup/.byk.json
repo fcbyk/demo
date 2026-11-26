@@ -1,0 +1,15 @@
+{
+    "$deps": {
+        "pip": [
+            "click"
+        ],
+        "files": [
+            "popup.py"
+        ]
+    },
+    "popup": {
+        "$mode": "silent",
+        "$cmd": "python ${deps_dir}/popup.py",
+        "$description": "Display multiple popup windows"
+    }
+}

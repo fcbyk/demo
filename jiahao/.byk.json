@@ -1,0 +1,16 @@
+{
+    "$deps": {
+        "pip": [
+            "click",
+            "rich"
+        ],
+        "files": [
+            "jiahao.py"
+        ]
+    },
+    "jiahao": {
+        "$mode": "silent",
+        "$cmd": "python ${deps_dir}/jiahao.py",
+        "$description": "zhuang x commands"
+    }
+}

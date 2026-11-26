@@ -1,4 +1,4 @@
-# pyodd
+# demo
 
 A collection of quick-and-dirty scripts and tools.
 
